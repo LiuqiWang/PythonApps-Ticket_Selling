@@ -92,8 +92,8 @@ while tickets_remaining >= 1:
 
 
 # Fixing the logical flow of data in the application.
-# if __name__ == '__main__':
-#     start_application()
+if __name__ == '__main__':
+    start_application()
 
 
 # notify users of soldouts
