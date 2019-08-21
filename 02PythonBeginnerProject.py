@@ -36,6 +36,7 @@ def start_application():
                     raise ValueError("There are only {} tickets remaining".format(tickets_remaining))
             except ValueError as err: print("Oh no, we ran into an issue. Please try again.")
         else:
+            user = User(name, age)
             print("Hello ", name)
             print("There are {} tickets remaining.".format(tickets_remaining))
             num_tickets = input("How many tickets would you like? ")
